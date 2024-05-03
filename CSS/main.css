@@ -42,64 +42,56 @@ ul {
 /* ALL-BTN */
 
 .dark-btn {
-    cursor: pointer;
-    max-width: 256px;
-    width: 100%;
     flex-shrink: 0;
     border-radius: 6px;
-    background-color: #172339;
-    color: #FAF8F6;
+    background-color:  #172339;
+    color: var(--Cream-White);
     font-family: "Epilogue";
-    text-align: center;
     font-size: 18px;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 32px; 
     letter-spacing: -0.18px;
-    padding: 14px 32px;
+    text-align: center;
+    padding: 15px 32px;
 }
 .dark-btn:hover {
-    max-width: 256px;
-    width: 100%;
+    cursor: pointer;
     height: 61px;
     flex-shrink: 0;
     border-radius: 6px;
     background: linear-gradient(135deg,#A060FF, #CB30E3, #FFA84E);
-    color: #FAF8F6;
+    color: var(--Cream-White);
     font-family: "Epilogue";
     text-align: center;
     font-size: 18px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: -0.18px;
-    padding: 14px 32px;
+    padding: 15px 32px;
 }
 .white-btn {
-    max-width: 219px;
-    width: 100%;
     flex-shrink: 0;
     border-radius: 6px;
     border: 1px solid #172339;
-    color: #172339;
+    color: var(--Dark-Blue);
     font-family: "Epilogue";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 32px; 
-    letter-spacing: -0.16px;
+    letter-spacing: -0.18px;
     text-align: center;
-    padding: 14px 32px;
+    padding: 15px 32px;
     transition: .4s;
 }
 .white-btn:hover {
-    max-width: 219px;
-    width: 100%;
-    padding: 14px 32px;
+    padding: 15px 32px;
     flex-shrink: 0;
     border-radius: 6px;
     border: 1px solid #172339;
     background: #172339;
-    color:#FAF8F6;
+    color:var(--Cream-White);
     font-family: "Epilogue";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: -0.16px;
